@@ -30,12 +30,11 @@
     animation-name: disappear;
     animation-duration: 5s;
 }
-@keyframes disappear
-{
- from {width: 100px;}
- to {width: 0px;}
- from {height: 100px;}
- to {height: 0px;}
+@keyframes disappear{
+    from {width: 100px;}
+    to {width: 0px;}
+    from {height: 100px;}
+    to {height: 0px;}
 }
 
 
@@ -92,3 +91,16 @@
 }
 
  
+/* esercizio 10 */
+.ex-10-icon{
+    animation: download 1s  infinite linear;
+}
+
+@keyframes download{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
