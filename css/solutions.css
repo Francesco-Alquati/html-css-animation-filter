@@ -21,7 +21,7 @@
 .ex-3-square{
     transition: 2s;
  }
- .well .ex-3-square:hover{
+.well .ex-3-square:hover{
     border-radius: 50%;
 }
 
@@ -29,7 +29,6 @@
 .ex-4-square{
     animation-name: disappear;
     animation-duration: 5s;
-    animation-iteration-count:infinite;
  }
  @keyframes disappear
  {
@@ -38,3 +37,16 @@
  from {height: 100px;}
  to {height: 0px;}
  }
+
+ /* esercizio 5  */
+.ex-5-square{
+   transition: 2s;
+ }
+.well .ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+}
+.well .ex-5-square:active{
+    width: 30px;
+    height: 30px;
+}
