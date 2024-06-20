@@ -24,3 +24,17 @@
  .well .ex-3-square:hover{
     border-radius: 50%;
 }
+
+/* esercizio 4  */
+.ex-4-square{
+    animation-name: disappear;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+ }
+ @keyframes disappear
+ {
+ from {width: 100px;}
+ to {width: 0px;}
+ from {height: 100px;}
+ to {height: 0px;}
+ }
