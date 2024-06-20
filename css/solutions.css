@@ -59,7 +59,7 @@
  }
 
 
- /* esercizio 7  */
+/* esercizio 7  */
 .ex-7-img{
     transition: 4s;
 }
@@ -68,5 +68,15 @@
     width: 400px;
 }
 
+
+/* esercizio 8  */
+.ex-8-img{
+    transition: 4s;
+}
+.ex-8-img:hover{
+    filter:contrast(3);
+    width: 400px;
+    border-radius: 50%;
+}
 
  
