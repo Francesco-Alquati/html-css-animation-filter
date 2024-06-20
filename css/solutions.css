@@ -16,3 +16,11 @@
 .well .ex-2-square:active{
     width: 100%;
 }
+
+/* esercizio 3 */
+.ex-3-square{
+    transition: 2s;
+ }
+ .well .ex-3-square:hover{
+    border-radius: 50%;
+}
