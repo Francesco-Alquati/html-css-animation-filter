@@ -27,14 +27,10 @@
 
 /* esercizio 4  */
 .ex-4-square{
-    animation-name: disappear;
-    animation-duration: 5s;
+    transition:2s;
 }
-@keyframes disappear{
-    from {width: 100px;}
-    to {width: 0px;}
-    from {height: 100px;}
-    to {height: 0px;}
+.ex-4-square:hover{
+    opacity: calc(0);
 }
 
 
@@ -43,12 +39,10 @@
    transition: 2s;
  }
 .ex-5-square:hover{
-    width: 100px;
-    height: 100px;
+    transform: scale(2);
 }
 .ex-5-square:active{
-    width: 30px;
-    height: 30px;
+    transform: scale(.2);
 }
 
 
@@ -126,31 +120,36 @@
 
 /* esercizio 12 */
 .ex-12-top-white{
-    animation: tw-move 3s  infinite;
+    animation: tw-move 2s  infinite;
 }
 .ex-12-bottom-white{
-    animation: bw-move 3s  infinite;
+    animation: bw-move 2s  infinite;
 }
 
 
 @keyframes tw-move{
     0% {
-        top: -10px;
+        
         left: 10%;
     }
-    100% {
-        top: -10px;
+    50% {
+        
         left: 60%;
+    }
+    100% {
+        
+        left: 10%;
     }
 }
 @keyframes bw-move{
     0% {
-        bottom: -10px;
         right: 20%;
     }
-    100% {
-        bottom: -10px;
+    50% {
         right: 60%;
+    }
+    100% {
+        right: 20%;
     }
 }
 
